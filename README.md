@@ -6,7 +6,7 @@ There are over 100 marques and more than 600 cars, each with its own short write
 
 ## Opening it
 
-There's no build step and nothing to install. Open `marque-museum.html` in any web browser and the whole museum loads — home page, search, every car's page, a timeline view, all of it.
+There's no build step and nothing to install. Open `index.html` in any web browser and the whole museum loads — home page, search, every car's page, a timeline view, all of it.
 
 If you want to serve it locally instead of opening the file directly, any simple local server works, for example:
 
@@ -18,7 +18,7 @@ then visit the page in your browser.
 
 ## What's in the project
 
-- **`marque-museum.html`** — the whole site. One file: the page, its styling, and every car and marque's details.
+- **`index.html`** — the whole site. One file: the page, its styling, and every car and marque's details.
 - **`images/`** — a photo for most cars, downloaded in advance so the site works offline. Where no free photo exists, the page draws a simple illustration instead.
 - **`audio/`** — one quiet instrumental track for the optional "gallery music" toggle in the header.
 - **`fetch_photos.py`** — the script that originally found and downloaded the photos in `images/`. You don't need to run it to use the site; it's there if you ever want to refresh or re-fetch the photos.
